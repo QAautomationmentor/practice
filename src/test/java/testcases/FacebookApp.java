@@ -32,4 +32,8 @@ public class FacebookApp extends Base {
 	public void printInfo() {
 		System.out.println("Title : " + driver.getTitle());
 	}
+	@Test(priority = 3)
+	public void printURL() {
+		System.out.println("Title : " + driver.getCurrentUrl());
+	}
 }
