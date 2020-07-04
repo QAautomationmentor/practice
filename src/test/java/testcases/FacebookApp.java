@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import utilities.Base;
 
 public class FacebookApp extends Base {
-	WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeClass
 	public void tearUp() {

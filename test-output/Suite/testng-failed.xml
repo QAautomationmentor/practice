@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="classes" name="Test(failed)">
-    <classes>
-      <class name="testcases.GmailApp">
-        <methods>
-          <include name="openApplication"/>
-          <include name="tearDown"/>
-          <include name="tearUp"/>
-          <include name="printInfo"/>
-        </methods>
-      </class> <!-- testcases.GmailApp -->
-      <class name="testcases.FacebookApp">
-        <methods>
-          <include name="tearDown"/>
-          <include name="openApplication"/>
-          <include name="printInfo"/>
-          <include name="tearUp"/>
-        </methods>
-      </class> <!-- testcases.FacebookApp -->
-      <class name="testcases.NaukriApp">
-        <methods>
-          <include name="tearUp"/>
-          <include name="tearDown"/>
-          <include name="openApplication"/>
-          <include name="printInfo"/>
-        </methods>
-      </class> <!-- testcases.NaukriApp -->
-    </classes>
-  </test> <!-- Test(failed) -->
+<suite parallel="classes" name="Failed suite [Suite]"
+	guice-stage="DEVELOPMENT">
+	<test thread-count="5" parallel="classes" name="Test(failed)">
+		<classes>
+			<class name="testcases.GmailApp">
+				<methods>
+					<include name="openApplication" />
+					<include name="tearDown" />
+					<include name="tearUp" />
+					<include name="printInfo" />
+				</methods>
+			</class> <!-- testcases.GmailApp -->
+			<class name="testcases.FacebookApp">
+				<methods>
+					<include name="tearDown" />
+					<include name="openApplication" />
+					<include name="printInfo" />
+					<include name="tearUp" />
+				</methods>
+			</class> <!-- testcases.FacebookApp -->
+			<class name="testcases.NaukriApp">
+				<methods>
+					<include name="tearUp" />
+					<include name="tearDown" />
+					<include name="openApplication" />
+					<include name="printInfo" />
+				</methods>
+			</class> <!-- testcases.NaukriApp -->
+		</classes>
+	</test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
