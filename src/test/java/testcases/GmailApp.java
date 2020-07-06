@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import utilities.Base;
 
 public class GmailApp extends Base {
-	WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeClass
 	public void tearUp() {

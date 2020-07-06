@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import utilities.Base;
 
 public class NaukriApp extends Base {
-	WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeClass
 	public void tearUp() {
@@ -36,5 +36,9 @@ public class NaukriApp extends Base {
 	@Test(priority = 3)
 	public void printURL() {
 		System.out.println("Title : " + driver.getCurrentUrl());
+	}
+	@Test(priority = 4)
+	public void printHelloMessage() {
+		System.out.println("hello aditya");
 	}
 }
