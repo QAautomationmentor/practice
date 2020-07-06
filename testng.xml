@@ -9,6 +9,7 @@
 			<class name="testcases.GmailApp" />
 			<class name="testcases.NaukriApp" />
 			<class name="testcases.FacebookApp" />
+			<class name="testcases.SpicejetApp" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
