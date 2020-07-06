@@ -1,6 +1,5 @@
 package testcases;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
@@ -15,7 +14,6 @@ public class SpicejetApp extends Base {
 	@BeforeClass
 	public void tearUp() {
 		driver = initializeDriver();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	@AfterClass
 	public void tearDown() {

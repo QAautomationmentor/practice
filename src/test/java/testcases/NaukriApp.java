@@ -37,4 +37,8 @@ public class NaukriApp extends Base {
 	public void printURL() {
 		System.out.println("Title : " + driver.getCurrentUrl());
 	}
+	@Test(priority = 4)
+	public void printHelloMessage() {
+		System.out.println("hello aditya");
+	}
 }

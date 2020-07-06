@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -24,11 +25,43 @@
           </reporter-output>
         </test-method> <!-- printURL -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.NaukriApp@6236eb5f]" started-at="2020-07-05T03:59:45 IST" name="tearDown" finished-at="2020-07-05T03:59:52 IST" duration-ms="7136" status="PASS">
+=======
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-06T16:37:26 IST" name="Suite" finished-at="2020-07-06T16:37:53 IST" duration-ms="27198">
+    <groups>
+    </groups>
+    <test started-at="2020-07-06T16:37:26 IST" name="Test" finished-at="2020-07-06T16:37:53 IST" duration-ms="27198">
+      <class name="testcases.NaukriApp">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.NaukriApp@6236eb5f]" started-at="2020-07-06T16:37:26 IST" name="tearUp" finished-at="2020-07-06T16:37:35 IST" duration-ms="9152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="openApplication()[pri:1, instance:testcases.NaukriApp@6236eb5f]" started-at="2020-07-06T16:37:35 IST" name="openApplication" finished-at="2020-07-06T16:37:50 IST" duration-ms="14340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="printInfo()[pri:2, instance:testcases.NaukriApp@6236eb5f]" started-at="2020-07-06T16:37:50 IST" name="printInfo" finished-at="2020-07-06T16:37:50 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printInfo -->
+        <test-method signature="printURL()[pri:3, instance:testcases.NaukriApp@6236eb5f]" started-at="2020-07-06T16:37:50 IST" name="printURL" finished-at="2020-07-06T16:37:50 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printURL -->
+        <test-method signature="printHelloMessage()[pri:4, instance:testcases.NaukriApp@6236eb5f]" started-at="2020-07-06T16:37:50 IST" name="printHelloMessage" finished-at="2020-07-06T16:37:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHelloMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.NaukriApp@6236eb5f]" started-at="2020-07-06T16:37:50 IST" name="tearDown" finished-at="2020-07-06T16:37:50 IST" duration-ms="535" status="PASS">
+>>>>>>> 9dfbc8605a90dca16e4909c4c0bb530121716756
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.NaukriApp -->
       <class name="testcases.GmailApp">
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.GmailApp@394a2528]" started-at="2020-07-05T03:59:20 IST" name="tearUp" finished-at="2020-07-05T03:59:32 IST" duration-ms="12369" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -46,11 +79,31 @@
           </reporter-output>
         </test-method> <!-- printURL -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.GmailApp@394a2528]" started-at="2020-07-05T03:59:49 IST" name="tearDown" finished-at="2020-07-05T03:59:53 IST" duration-ms="4413" status="PASS">
+=======
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.GmailApp@394a2528]" started-at="2020-07-06T16:37:26 IST" name="tearUp" finished-at="2020-07-06T16:37:34 IST" duration-ms="8410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="openApplication()[pri:1, instance:testcases.GmailApp@394a2528]" started-at="2020-07-06T16:37:34 IST" name="openApplication" finished-at="2020-07-06T16:37:42 IST" duration-ms="7705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="printInfo()[pri:2, instance:testcases.GmailApp@394a2528]" started-at="2020-07-06T16:37:42 IST" name="printInfo" finished-at="2020-07-06T16:37:42 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printInfo -->
+        <test-method signature="printURL()[pri:3, instance:testcases.GmailApp@394a2528]" started-at="2020-07-06T16:37:42 IST" name="printURL" finished-at="2020-07-06T16:37:43 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.GmailApp@394a2528]" started-at="2020-07-06T16:37:43 IST" name="tearDown" finished-at="2020-07-06T16:37:48 IST" duration-ms="5900" status="PASS">
+>>>>>>> 9dfbc8605a90dca16e4909c4c0bb530121716756
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.GmailApp -->
       <class name="testcases.SpicejetApp">
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.SpicejetApp@fa36558]" started-at="2020-07-05T03:59:20 IST" name="tearUp" finished-at="2020-07-05T03:59:32 IST" duration-ms="12369" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -60,11 +113,23 @@
           </reporter-output>
         </test-method> <!-- openApplication -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SpicejetApp@fa36558]" started-at="2020-07-05T03:59:40 IST" name="tearDown" finished-at="2020-07-05T03:59:44 IST" duration-ms="4283" status="PASS">
+=======
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.SpicejetApp@fa36558]" started-at="2020-07-06T16:37:26 IST" name="tearUp" finished-at="2020-07-06T16:37:35 IST" duration-ms="9052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="openApplication()[pri:1, instance:testcases.SpicejetApp@fa36558]" started-at="2020-07-06T16:37:35 IST" name="openApplication" finished-at="2020-07-06T16:37:45 IST" duration-ms="10328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SpicejetApp@fa36558]" started-at="2020-07-06T16:37:45 IST" name="tearDown" finished-at="2020-07-06T16:37:48 IST" duration-ms="2908" status="PASS">
+>>>>>>> 9dfbc8605a90dca16e4909c4c0bb530121716756
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.SpicejetApp -->
       <class name="testcases.FacebookApp">
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-05T03:59:20 IST" name="tearUp" finished-at="2020-07-05T03:59:32 IST" duration-ms="12364" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -86,6 +151,29 @@
           </reporter-output>
         </test-method> <!-- printHelloMessage -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-05T03:59:45 IST" name="tearDown" finished-at="2020-07-05T03:59:52 IST" duration-ms="6815" status="PASS">
+=======
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-06T16:37:26 IST" name="tearUp" finished-at="2020-07-06T16:37:35 IST" duration-ms="8984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method signature="openApplication()[pri:1, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-06T16:37:35 IST" name="openApplication" finished-at="2020-07-06T16:37:45 IST" duration-ms="9874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="printInfo()[pri:2, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-06T16:37:45 IST" name="printInfo" finished-at="2020-07-06T16:37:47 IST" duration-ms="1853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printInfo -->
+        <test-method signature="printURL()[pri:3, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-06T16:37:47 IST" name="printURL" finished-at="2020-07-06T16:37:47 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printURL -->
+        <test-method signature="printHelloMessage()[pri:4, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-06T16:37:47 IST" name="printHelloMessage" finished-at="2020-07-06T16:37:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHelloMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FacebookApp@7c1e2a9e]" started-at="2020-07-06T16:37:47 IST" name="tearDown" finished-at="2020-07-06T16:37:53 IST" duration-ms="5960" status="PASS">
+>>>>>>> 9dfbc8605a90dca16e4909c4c0bb530121716756
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
