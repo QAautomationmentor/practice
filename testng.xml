@@ -10,6 +10,7 @@
 			<class name="testcases.NaukriApp" />
 			<class name="testcases.FacebookApp" />
 			<class name="testcases.SpicejetApp" />
+			<class name="testcases.Linkvalidation" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
