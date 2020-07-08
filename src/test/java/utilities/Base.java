@@ -24,7 +24,7 @@ public class Base {
 		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
 		File destination = new File(
-				System.getProperty("user.dir") + "\\src\\test\\java\\screenshots\\" + screenshotName + ".png");
+				System.getProperty("user.dir") + "\\src\\test\\java\\reports\\" + screenshotName + ".png");
 		try {
 			FileHandler.copy(src, destination);
 		} catch (IOException e) {

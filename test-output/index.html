@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.Linkvalidation" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +116,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.NaukriApp" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.GmailApp" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.SpicejetApp" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.NaukriApp" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -117,12 +131,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.GmailApp" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.Linkvalidation" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.SpicejetApp" class="method navigator-link" hash-for-method="openApplication">openApplication</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -137,7 +146,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.FacebookApp" class="method navigator-link" hash-for-method="printInfo">printInfo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.GmailApp" class="method navigator-link" hash-for-method="printInfo">printInfo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,7 +161,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.GmailApp" class="method navigator-link" hash-for-method="printInfo">printInfo</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.FacebookApp" class="method navigator-link" hash-for-method="printInfo">printInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.GmailApp" class="method navigator-link" hash-for-method="printURL">printURL</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -163,11 +177,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.FacebookApp" class="method navigator-link" hash-for-method="printURL">printURL</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.GmailApp" class="method navigator-link" hash-for-method="printURL">printURL</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -182,6 +191,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.Linkvalidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openApplication">
+                  </a> <!-- openApplication -->
+                  <span class="method-name">openApplication</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at testcases.Linkvalidation.openApplication(Linkvalidation.java:30)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -224,13 +255,6 @@
               <span class="class-name">testcases.Linkvalidation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="openApplication">
-                  </a> <!-- openApplication -->
-                  <span class="method-name">openApplication</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="printInfo">
@@ -382,59 +406,59 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'openApplication')
-data.setCell(0, 2, 'testcases.FacebookApp')
-data.setCell(0, 3, 23188);
+data.setCell(0, 2, 'testcases.Linkvalidation')
+data.setCell(0, 3, 14399);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'openApplication')
-data.setCell(1, 2, 'testcases.GmailApp')
-data.setCell(1, 3, 22518);
+data.setCell(1, 2, 'testcases.SpicejetApp')
+data.setCell(1, 3, 14060);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'openApplication')
-data.setCell(2, 2, 'testcases.SpicejetApp')
-data.setCell(2, 3, 15392);
+data.setCell(2, 2, 'testcases.FacebookApp')
+data.setCell(2, 3, 12430);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'openApplication')
-data.setCell(3, 2, 'testcases.Linkvalidation')
-data.setCell(3, 3, 11609);
+data.setCell(3, 2, 'testcases.GmailApp')
+data.setCell(3, 3, 9170);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'openApplication')
 data.setCell(4, 2, 'testcases.NaukriApp')
-data.setCell(4, 3, 9258);
+data.setCell(4, 3, 5499);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'printInfo')
+data.setCell(5, 1, 'printURL')
 data.setCell(5, 2, 'testcases.NaukriApp')
-data.setCell(5, 3, 3812);
+data.setCell(5, 3, 2513);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'printInfo')
-data.setCell(6, 2, 'testcases.Linkvalidation')
-data.setCell(6, 3, 2381);
+data.setCell(6, 2, 'testcases.NaukriApp')
+data.setCell(6, 3, 2086);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'printURL')
-data.setCell(7, 2, 'testcases.NaukriApp')
-data.setCell(7, 3, 1311);
+data.setCell(7, 2, 'testcases.GmailApp')
+data.setCell(7, 3, 1018);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'printInfo')
 data.setCell(8, 2, 'testcases.GmailApp')
-data.setCell(8, 3, 472);
+data.setCell(8, 3, 484);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'printURL')
-data.setCell(9, 2, 'testcases.GmailApp')
-data.setCell(9, 3, 37);
+data.setCell(9, 1, 'printInfo')
+data.setCell(9, 2, 'testcases.FacebookApp')
+data.setCell(9, 3, 299);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'printURL')
 data.setCell(10, 2, 'testcases.FacebookApp')
-data.setCell(10, 3, 17);
+data.setCell(10, 3, 51);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'printInfo')
-data.setCell(11, 2, 'testcases.FacebookApp')
-data.setCell(11, 3, 16);
+data.setCell(11, 2, 'testcases.Linkvalidation')
+data.setCell(11, 3, 11);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'printHelloMessage')
-data.setCell(12, 2, 'testcases.FacebookApp')
-data.setCell(12, 3, 4);
+data.setCell(12, 2, 'testcases.NaukriApp')
+data.setCell(12, 3, 6);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'printHelloMessage')
-data.setCell(13, 2, 'testcases.NaukriApp')
+data.setCell(13, 2, 'testcases.FacebookApp')
 data.setCell(13, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
@@ -466,7 +490,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.Linkvalidation</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.NaukriApp</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">tearUp</span>
                 <span class="method-start">0 ms</span>
@@ -480,6 +504,13 @@ return data;
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FacebookApp</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">tearUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">testcases.SpicejetApp</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">tearUp</span>
@@ -487,129 +518,124 @@ return data;
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.NaukriApp</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.Linkvalidation</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.FacebookApp</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">tearUp</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">11169 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Linkvalidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">openApplication</span>
+                <span class="method-start">11170 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.NaukriApp</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openApplication</span>
+                <span class="method-start">11173 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.SpicejetApp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openApplication</span>
-                <span class="method-start">16999 ms</span>
+                <span class="method-start">11175 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.GmailApp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openApplication</span>
-                <span class="method-start">17000 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.FacebookApp</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">openApplication</span>
-                <span class="method-start">17003 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.Linkvalidation</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">openApplication</span>
-                <span class="method-start">17012 ms</span>
+                <span class="method-start">11862 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.NaukriApp</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">openApplication</span>
-                <span class="method-start">17038 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">printInfo</span>
-                <span class="method-start">26613 ms</span>
+                <span class="method-start">16711 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.Linkvalidation</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">printInfo</span>
-                <span class="method-start">28627 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.NaukriApp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">printURL</span>
-                <span class="method-start">30428 ms</span>
+                <span class="method-start">18805 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.Linkvalidation</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">31011 ms</span>
-              </div> <!-- configuration-class after -->
+              <div class="chronological-class-name">testcases.GmailApp</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printInfo</span>
+                <span class="method-start">21035 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.NaukriApp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">printHelloMessage</span>
-                <span class="method-start">31742 ms</span>
+                <span class="method-start">21322 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31750 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testcases.SpicejetApp</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">32394 ms</span>
+                <span class="method-start">21330 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.GmailApp</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">printInfo</span>
-                <span class="method-start">39523 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">printURL</span>
-                <span class="method-start">39999 ms</span>
+                <span class="method-start">21525 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">40038 ms</span>
+                <span class="method-start">22550 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.FacebookApp</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">printInfo</span>
-                <span class="method-start">40194 ms</span>
+                <span class="method-start">23601 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">printURL</span>
-                <span class="method-start">40219 ms</span>
+                <span class="method-start">23904 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">printHelloMessage</span>
-                <span class="method-start">40241 ms</span>
+                <span class="method-start">23963 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">40248 ms</span>
+                <span class="method-start">23968 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.SpicejetApp</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25236 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.Linkvalidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printInfo</span>
+                <span class="method-start">26504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26517 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

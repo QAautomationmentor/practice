@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="Test(failed)">
     <classes>
-      <class name="testcases.SpicejetApp">
+      <class name="testcases.Linkvalidation">
         <methods>
+          <include name="tearUp"/>
           <include name="tearDown"/>
           <include name="openApplication"/>
-          <include name="tearUp"/>
         </methods>
-      </class> <!-- testcases.SpicejetApp -->
+      </class> <!-- testcases.Linkvalidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

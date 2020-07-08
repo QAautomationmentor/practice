@@ -3,6 +3,7 @@ package testcases;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -26,6 +27,8 @@ public class Linkvalidation extends Base {
 	@Test(priority = 1)
 	public void openApplication() {
 		driver.get("https://www.rahulshettyacademy.com/");
+		Assert.assertTrue(false);
+		
 	}
 
 	@Test(priority = 2)
